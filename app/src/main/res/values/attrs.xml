@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ExpandableTextView">
+        <!--行数-->
+        <attr name="base_common_limit_line_count" format="integer"/>
+        <!--展开的文本-->
+        <attr name="base_common_open_text" format="string"/>
+        <!--收起的文本-->
+        <attr name="base_common_close_text" format="string"/>
+        <!--默认收起展开状态-->
+        <attr name="base_common_default_state" format="integer"/>
+        <!--超过显示文案，默认...-->
+        <attr name="base_common_ellipsis_text" format="string"/>
+        <!--设置展开收起文本的颜色-->
+        <attr name="base_common_open_and_close_textcolor" format="color"/>
+    </declare-styleable>
+
+</resources>
